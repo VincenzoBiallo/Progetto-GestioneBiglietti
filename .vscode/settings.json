@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "utils.h": "c",
+        "stdio.h": "c",
+        "array": "c",
+        "locali.h": "c",
+        "prenotazioni.h": "c"
+    }
+}

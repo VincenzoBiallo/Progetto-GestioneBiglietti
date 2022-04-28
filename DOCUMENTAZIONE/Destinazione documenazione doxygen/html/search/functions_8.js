@@ -1,0 +1,10 @@
+var searchData=
+[
+  ['salvaeventi_181',['salvaEventi',['../eventi_8c.html#ae1d26585167d8bcb9ebaf7aa8deb8e4d',1,'salvaEventi(eventi *eventi, struct index *indexs, locali *locali):&#160;eventi.c'],['../eventi_8h.html#ae1d26585167d8bcb9ebaf7aa8deb8e4d',1,'salvaEventi(eventi *eventi, struct index *indexs, locali *locali):&#160;eventi.c']]],
+  ['salvaindexs_182',['salvaIndexs',['../utils_8c.html#ad359c906664ee3fc8df953bfb627e361',1,'salvaIndexs(struct index *indexs):&#160;utils.c'],['../utils_8h.html#ad359c906664ee3fc8df953bfb627e361',1,'salvaIndexs(struct index *indexs):&#160;utils.c']]],
+  ['salvalocali_183',['salvaLocali',['../locali_8c.html#a706ef3633876b8c99a918371fd823871',1,'salvaLocali(locali *locali, struct index *indexs):&#160;locali.c'],['../locali_8h.html#a706ef3633876b8c99a918371fd823871',1,'salvaLocali(locali *locali, struct index *indexs):&#160;locali.c']]],
+  ['salvaprenotazioni_184',['salvaPrenotazioni',['../prenotazioni_8c.html#aac6a608850a02e37e49a2d3f780ad681',1,'salvaPrenotazioni(prenotazioni *prenotazioni, struct index *indexs):&#160;prenotazioni.c'],['../prenotazioni_8h.html#aac6a608850a02e37e49a2d3f780ad681',1,'salvaPrenotazioni(prenotazioni *prenotazioni, struct index *indexs):&#160;prenotazioni.c']]],
+  ['salvautenti_185',['salvaUtenti',['../utenti_8c.html#aba56d82979c7834dbb67a7a40e461981',1,'salvaUtenti(utenti *utenti):&#160;utenti.c'],['../utenti_8h.html#aba56d82979c7834dbb67a7a40e461981',1,'salvaUtenti(utenti *utenti):&#160;utenti.c']]],
+  ['setcolor_186',['setColor',['../utils_8c.html#a8acf595f716e5856f643beaf9d0a21a8',1,'setColor(enum colori colore):&#160;utils.c'],['../utils_8h.html#a8acf595f716e5856f643beaf9d0a21a8',1,'setColor(enum colori colore):&#160;utils.c']]],
+  ['stringavalida_187',['stringaValida',['../utils_8c.html#a59714bad5855c41f4522a1fa61898e29',1,'stringaValida(const char string[], const char *alphabet):&#160;utils.c'],['../utils_8h.html#a59714bad5855c41f4522a1fa61898e29',1,'stringaValida(const char string[], const char *alphabet):&#160;utils.c']]]
+];

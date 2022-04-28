@@ -1,0 +1,141 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>biallo&amp;digirolamo_traccia4:  File sorgente libs/utenti.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">biallo&amp;digirolamo_traccia4
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generato da Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Cerca','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Cerca');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_6719ab1f1f7655efc2fa43f7eb574fd1.html">libs</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">utenti.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="utenti_8h.html">Vai alla documentazione di questo file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef utenti_flag</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define utenti_flag</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="utils_8h.html">utils.h</a>&quot;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;stdio.h&gt;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;stdlib.h&gt;</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &lt;string.h&gt;</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160; </div>
+<div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="structutente.html">    9</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code" href="structutente.html">utente</a> {</div>
+<div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="structutente.html#aa6d558e88ec53c1d8afab982c77d30a3">   10</a></span>&#160;    <span class="keywordtype">char</span> <a class="code" href="structutente.html#aa6d558e88ec53c1d8afab982c77d30a3">nickname</a>[16];</div>
+<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="structutente.html#a56528277a4fb85fed78d0f24306f9f6c">   11</a></span>&#160;    <span class="keywordtype">char</span> <a class="code" href="structutente.html#a56528277a4fb85fed78d0f24306f9f6c">email</a>[64];</div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="structutente.html#ac12627d65ac1798778b6defb4d06a2d1">   12</a></span>&#160;    <span class="keywordtype">char</span> <a class="code" href="structutente.html#ac12627d65ac1798778b6defb4d06a2d1">cognome</a>[20];</div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="structutente.html#a9ccb3b1009c0baf8e49e38488c83732a">   13</a></span>&#160;    <span class="keywordtype">char</span> <a class="code" href="structutente.html#a9ccb3b1009c0baf8e49e38488c83732a">nome</a>[20];</div>
+<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="structutente.html#a167bb34296366192d4af632e93cc237d">   14</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structutente.html#a167bb34296366192d4af632e93cc237d">genere</a>;</div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="structutente.html#a00dbbacf95ffd61d25a27dafce9d3fe2">   15</a></span>&#160;    <a class="code" href="structdata.html">data</a> <a class="code" href="structutente.html#a00dbbacf95ffd61d25a27dafce9d3fe2">dataNascita</a>;</div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="structutente.html#a5704068048ef27def59c481e12000fd7">   16</a></span>&#160;    <span class="keywordtype">char</span> <a class="code" href="structutente.html#a5704068048ef27def59c481e12000fd7">telefono</a>[20];</div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="structutente.html#acc663def6cc8bc63f6a02e18c257be42">   17</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structutente.html#acc663def6cc8bc63f6a02e18c257be42">genereMusicale</a>;</div>
+<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="utenti_8h.html#a8aebc04d1b989c9462a4f9aaf5c24359">   18</a></span>&#160;} <a class="code" href="utenti_8h.html#a8aebc04d1b989c9462a4f9aaf5c24359">utente</a>;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="structutenti.html">   20</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code" href="structutenti.html">utenti</a> {</div>
+<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="structutenti.html#a5e78d252b65cf9c4e22375c01a07efdc">   21</a></span>&#160;    <a class="code" href="structutente.html">utente</a>* <a class="code" href="structutenti.html#a5e78d252b65cf9c4e22375c01a07efdc">array</a>;</div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="structutenti.html#a439227feff9d7f55384e8780cfc2eb82">   22</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structutenti.html#a439227feff9d7f55384e8780cfc2eb82">size</a>;</div>
+<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="utenti_8h.html#a0518e472d425e64bb81a328f536493a0">   23</a></span>&#160;} <a class="code" href="utenti_8h.html#a0518e472d425e64bb81a328f536493a0">utenti</a>;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keywordtype">int</span> <a class="code" href="utenti_8h.html#a83f8f9cce162b4525bd12f4bb97e59f1">caricaUtenti</a>(<a class="code" href="structutenti.html">utenti</a>* <a class="code" href="structutenti.html">utenti</a>);</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keywordtype">int</span> <a class="code" href="utenti_8h.html#aba56d82979c7834dbb67a7a40e461981">salvaUtenti</a>(<a class="code" href="structutenti.html">utenti</a>* <a class="code" href="structutenti.html">utenti</a>);</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keywordtype">int</span> <a class="code" href="utenti_8h.html#aca61a233b6935e888fdab2f9c95f3389">aggiungiUtente</a>(<a class="code" href="structutenti.html">utenti</a>* <a class="code" href="structutenti.html">utenti</a>);</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="keywordtype">void</span> <a class="code" href="utenti_8h.html#a18d3e53f0be45be7839ee5e296dab327">visualizzaUtente</a>(<a class="code" href="structutenti.html">utenti</a>* <a class="code" href="structutenti.html">utenti</a> , <a class="code" href="structutente.html">utente</a>* entity);</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="keywordtype">void</span> <a class="code" href="utenti_8h.html#ab2bf50e30073bcf543b985974ae53bb3">visualizzaUtenti</a>(<a class="code" href="structutenti.html">utenti</a>* <a class="code" href="structutenti.html">utenti</a>);</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="keywordtype">int</span> <a class="code" href="utenti_8h.html#ab933cec29e97c6e72bf3ec0c68d4f367">modificaUtente</a>(<a class="code" href="structutenti.html">utenti</a>* <a class="code" href="structutenti.html">utenti</a>);</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<a class="code" href="structutente.html">utente</a>* <a class="code" href="utenti_8h.html#a96a940049d57be05b247e73727417e77">ricercaUtente</a>(<a class="code" href="structutenti.html">utenti</a>* <a class="code" href="structutenti.html">utenti</a>, <span class="keywordtype">char</span>* nickname);</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="keywordtype">int</span> <a class="code" href="utenti_8h.html#adc9bf68b9fce373edb7f7708999168e1">esisteUtente</a>(<a class="code" href="structutenti.html">utenti</a>* <a class="code" href="structutenti.html">utenti</a>, <span class="keywordtype">char</span>* nickname);</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="keywordtype">void</span> <a class="code" href="utenti_8h.html#af3915cf3f54d0f4f1ac6471c87071948">mergeUtenti</a>(<a class="code" href="structutenti.html">utenti</a>* <a class="code" href="structutenti.html">utenti</a>, <span class="keywordtype">int</span> inizio, <span class="keywordtype">int</span> meta, <span class="keywordtype">int</span> fine);</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="astructdata_html"><div class="ttname"><a href="structdata.html">data</a></div><div class="ttdef"><b>Definition:</b> utils.h:15</div></div>
+<div class="ttc" id="astructutente_html"><div class="ttname"><a href="structutente.html">utente</a></div><div class="ttdef"><b>Definition:</b> utenti.h:9</div></div>
+<div class="ttc" id="astructutente_html_a00dbbacf95ffd61d25a27dafce9d3fe2"><div class="ttname"><a href="structutente.html#a00dbbacf95ffd61d25a27dafce9d3fe2">utente::dataNascita</a></div><div class="ttdeci">data dataNascita</div><div class="ttdef"><b>Definition:</b> utenti.h:15</div></div>
+<div class="ttc" id="astructutente_html_a167bb34296366192d4af632e93cc237d"><div class="ttname"><a href="structutente.html#a167bb34296366192d4af632e93cc237d">utente::genere</a></div><div class="ttdeci">int genere</div><div class="ttdef"><b>Definition:</b> utenti.h:14</div></div>
+<div class="ttc" id="astructutente_html_a56528277a4fb85fed78d0f24306f9f6c"><div class="ttname"><a href="structutente.html#a56528277a4fb85fed78d0f24306f9f6c">utente::email</a></div><div class="ttdeci">char email[64]</div><div class="ttdef"><b>Definition:</b> utenti.h:11</div></div>
+<div class="ttc" id="astructutente_html_a5704068048ef27def59c481e12000fd7"><div class="ttname"><a href="structutente.html#a5704068048ef27def59c481e12000fd7">utente::telefono</a></div><div class="ttdeci">char telefono[20]</div><div class="ttdef"><b>Definition:</b> utenti.h:16</div></div>
+<div class="ttc" id="astructutente_html_a9ccb3b1009c0baf8e49e38488c83732a"><div class="ttname"><a href="structutente.html#a9ccb3b1009c0baf8e49e38488c83732a">utente::nome</a></div><div class="ttdeci">char nome[20]</div><div class="ttdef"><b>Definition:</b> utenti.h:13</div></div>
+<div class="ttc" id="astructutente_html_aa6d558e88ec53c1d8afab982c77d30a3"><div class="ttname"><a href="structutente.html#aa6d558e88ec53c1d8afab982c77d30a3">utente::nickname</a></div><div class="ttdeci">char nickname[16]</div><div class="ttdef"><b>Definition:</b> utenti.h:10</div></div>
+<div class="ttc" id="astructutente_html_ac12627d65ac1798778b6defb4d06a2d1"><div class="ttname"><a href="structutente.html#ac12627d65ac1798778b6defb4d06a2d1">utente::cognome</a></div><div class="ttdeci">char cognome[20]</div><div class="ttdef"><b>Definition:</b> utenti.h:12</div></div>
+<div class="ttc" id="astructutente_html_acc663def6cc8bc63f6a02e18c257be42"><div class="ttname"><a href="structutente.html#acc663def6cc8bc63f6a02e18c257be42">utente::genereMusicale</a></div><div class="ttdeci">int genereMusicale</div><div class="ttdef"><b>Definition:</b> utenti.h:17</div></div>
+<div class="ttc" id="astructutenti_html"><div class="ttname"><a href="structutenti.html">utenti</a></div><div class="ttdef"><b>Definition:</b> utenti.h:20</div></div>
+<div class="ttc" id="astructutenti_html_a439227feff9d7f55384e8780cfc2eb82"><div class="ttname"><a href="structutenti.html#a439227feff9d7f55384e8780cfc2eb82">utenti::size</a></div><div class="ttdeci">int size</div><div class="ttdef"><b>Definition:</b> utenti.h:22</div></div>
+<div class="ttc" id="astructutenti_html_a5e78d252b65cf9c4e22375c01a07efdc"><div class="ttname"><a href="structutenti.html#a5e78d252b65cf9c4e22375c01a07efdc">utenti::array</a></div><div class="ttdeci">utente * array</div><div class="ttdef"><b>Definition:</b> utenti.h:21</div></div>
+<div class="ttc" id="autenti_8h_html_a0518e472d425e64bb81a328f536493a0"><div class="ttname"><a href="utenti_8h.html#a0518e472d425e64bb81a328f536493a0">utenti</a></div><div class="ttdeci">struct utenti utenti</div></div>
+<div class="ttc" id="autenti_8h_html_a18d3e53f0be45be7839ee5e296dab327"><div class="ttname"><a href="utenti_8h.html#a18d3e53f0be45be7839ee5e296dab327">visualizzaUtente</a></div><div class="ttdeci">void visualizzaUtente(utenti *utenti, utente *entity)</div><div class="ttdef"><b>Definition:</b> utenti.c:438</div></div>
+<div class="ttc" id="autenti_8h_html_a83f8f9cce162b4525bd12f4bb97e59f1"><div class="ttname"><a href="utenti_8h.html#a83f8f9cce162b4525bd12f4bb97e59f1">caricaUtenti</a></div><div class="ttdeci">int caricaUtenti(utenti *utenti)</div><div class="ttdef"><b>Definition:</b> utenti.c:13</div></div>
+<div class="ttc" id="autenti_8h_html_a8aebc04d1b989c9462a4f9aaf5c24359"><div class="ttname"><a href="utenti_8h.html#a8aebc04d1b989c9462a4f9aaf5c24359">utente</a></div><div class="ttdeci">struct utente utente</div></div>
+<div class="ttc" id="autenti_8h_html_a96a940049d57be05b247e73727417e77"><div class="ttname"><a href="utenti_8h.html#a96a940049d57be05b247e73727417e77">ricercaUtente</a></div><div class="ttdeci">utente * ricercaUtente(utenti *utenti, char *nickname)</div><div class="ttdef"><b>Definition:</b> utenti.c:846</div></div>
+<div class="ttc" id="autenti_8h_html_ab2bf50e30073bcf543b985974ae53bb3"><div class="ttname"><a href="utenti_8h.html#ab2bf50e30073bcf543b985974ae53bb3">visualizzaUtenti</a></div><div class="ttdeci">void visualizzaUtenti(utenti *utenti)</div><div class="ttdef"><b>Definition:</b> utenti.c:938</div></div>
+<div class="ttc" id="autenti_8h_html_ab933cec29e97c6e72bf3ec0c68d4f367"><div class="ttname"><a href="utenti_8h.html#ab933cec29e97c6e72bf3ec0c68d4f367">modificaUtente</a></div><div class="ttdeci">int modificaUtente(utenti *utenti)</div><div class="ttdef"><b>Definition:</b> utenti.c:526</div></div>
+<div class="ttc" id="autenti_8h_html_aba56d82979c7834dbb67a7a40e461981"><div class="ttname"><a href="utenti_8h.html#aba56d82979c7834dbb67a7a40e461981">salvaUtenti</a></div><div class="ttdeci">int salvaUtenti(utenti *utenti)</div><div class="ttdef"><b>Definition:</b> utenti.c:93</div></div>
+<div class="ttc" id="autenti_8h_html_aca61a233b6935e888fdab2f9c95f3389"><div class="ttname"><a href="utenti_8h.html#aca61a233b6935e888fdab2f9c95f3389">aggiungiUtente</a></div><div class="ttdeci">int aggiungiUtente(utenti *utenti)</div><div class="ttdef"><b>Definition:</b> utenti.c:143</div></div>
+<div class="ttc" id="autenti_8h_html_adc9bf68b9fce373edb7f7708999168e1"><div class="ttname"><a href="utenti_8h.html#adc9bf68b9fce373edb7f7708999168e1">esisteUtente</a></div><div class="ttdeci">int esisteUtente(utenti *utenti, char *nickname)</div><div class="ttdef"><b>Definition:</b> utenti.c:875</div></div>
+<div class="ttc" id="autenti_8h_html_af3915cf3f54d0f4f1ac6471c87071948"><div class="ttname"><a href="utenti_8h.html#af3915cf3f54d0f4f1ac6471c87071948">mergeUtenti</a></div><div class="ttdeci">void mergeUtenti(utenti *utenti, int inizio, int meta, int fine)</div><div class="ttdef"><b>Definition:</b> utenti.c:895</div></div>
+<div class="ttc" id="autils_8h_html"><div class="ttname"><a href="utils_8h.html">utils.h</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generato da&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>

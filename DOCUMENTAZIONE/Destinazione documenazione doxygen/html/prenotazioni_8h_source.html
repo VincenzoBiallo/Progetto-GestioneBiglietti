@@ -1,0 +1,159 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>biallo&amp;digirolamo_traccia4:  File sorgente libs/prenotazioni.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">biallo&amp;digirolamo_traccia4
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generato da Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Cerca','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Cerca');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_6719ab1f1f7655efc2fa43f7eb574fd1.html">libs</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">prenotazioni.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="prenotazioni_8h.html">Vai alla documentazione di questo file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef prenotazioni_flag</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define prenotazioni_flag</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="utils_8h.html">utils.h</a>&quot;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="eventi_8h.html">eventi.h</a>&quot;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="locali_8h.html">locali.h</a>&quot;</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="utenti_8h.html">utenti.h</a>&quot;</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160; </div>
+<div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="structprenotazione.html">    9</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code" href="structprenotazione.html">prenotazione</a> {</div>
+<div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="structprenotazione.html#a2c30f43104974e72e2809fb4569804b0">   10</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structprenotazione.html#a2c30f43104974e72e2809fb4569804b0">numero</a>;</div>
+<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="structprenotazione.html#afe04d4113ae6a93a1b065da00e5c9130">   11</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structprenotazione.html#afe04d4113ae6a93a1b065da00e5c9130">evento</a>;</div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="structprenotazione.html#aa6d558e88ec53c1d8afab982c77d30a3">   12</a></span>&#160;    <span class="keywordtype">char</span> <a class="code" href="structprenotazione.html#aa6d558e88ec53c1d8afab982c77d30a3">nickname</a>[16];</div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="structprenotazione.html#a12ab93e0d3cb049cb91a8ae3d0906ffa">   13</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structprenotazione.html#a12ab93e0d3cb049cb91a8ae3d0906ffa">fila</a>;</div>
+<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="structprenotazione.html#a997e4e90011af4b713da260c179374e8">   14</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structprenotazione.html#a997e4e90011af4b713da260c179374e8">n_poltrona</a>;</div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="structprenotazione.html#a46b5bfde285929a75811b2421107395c">   15</a></span>&#160;    <span class="keywordtype">float</span> <a class="code" href="structprenotazione.html#a46b5bfde285929a75811b2421107395c">importo</a>;</div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="prenotazioni_8h.html#a2ad2cfa579a1df292a565cd92563988b">   16</a></span>&#160;} <a class="code" href="prenotazioni_8h.html#a2ad2cfa579a1df292a565cd92563988b">prenotazione</a>;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
+<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="structprenotazioni.html">   18</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code" href="structprenotazioni.html">prenotazioni</a> {</div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="structprenotazioni.html#afada8df0d9d8310dd058a083a4661941">   19</a></span>&#160;    <a class="code" href="structprenotazione.html">prenotazione</a>* <a class="code" href="structprenotazioni.html#afada8df0d9d8310dd058a083a4661941">array</a>;</div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="structprenotazioni.html#a439227feff9d7f55384e8780cfc2eb82">   20</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structprenotazioni.html#a439227feff9d7f55384e8780cfc2eb82">size</a>;</div>
+<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="structprenotazioni.html#a95e9e0f8a692321b83a2e0ce2789c485">   21</a></span>&#160;    <span class="keywordtype">int</span>* <a class="code" href="structprenotazioni.html#a95e9e0f8a692321b83a2e0ce2789c485">index</a>;</div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="prenotazioni_8h.html#a022fed93768e1f2edb5546a793d8cdeb">   22</a></span>&#160;} <a class="code" href="prenotazioni_8h.html#a022fed93768e1f2edb5546a793d8cdeb">prenotazioni</a>;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keywordtype">int</span> <a class="code" href="prenotazioni_8h.html#a29733be0a25ba4bc00fdad682d2f0287">caricaPrenotazioni</a>(<a class="code" href="structprenotazioni.html">prenotazioni</a>* <a class="code" href="structprenotazioni.html">prenotazioni</a>, <span class="keyword">struct</span> <a class="code" href="structindex.html">index</a>* indexs);</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keywordtype">int</span> <a class="code" href="prenotazioni_8h.html#aac6a608850a02e37e49a2d3f780ad681">salvaPrenotazioni</a>(<a class="code" href="structprenotazioni.html">prenotazioni</a>* <a class="code" href="structprenotazioni.html">prenotazioni</a>, <span class="keyword">struct</span> <a class="code" href="structindex.html">index</a>* indexs);</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="keywordtype">void</span> <a class="code" href="prenotazioni_8h.html#ac6177c072b2369ac4b8a02843c47aecf">visualizzaBiglietto</a>(<span class="keywordtype">char</span>* nomeEvento, <span class="keywordtype">int</span> nBiglietto, <a class="code" href="structdata.html">data</a> dataEvento, <span class="keywordtype">char</span>* nickname, <span class="keywordtype">int</span> nFila, <span class="keywordtype">int</span> nPoltrona, <span class="keywordtype">char</span>* nomeLocale, <span class="keywordtype">float</span> importo);</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keywordtype">void</span> <a class="code" href="prenotazioni_8h.html#aa3e04fc2bd7adb23308413033df5a321">visualizzaDisponibilitaSala</a>(<a class="code" href="structprenotazioni.html">prenotazioni</a>* <a class="code" href="structprenotazioni.html">prenotazioni</a>, <a class="code" href="structeventi.html">eventi</a>* <a class="code" href="structeventi.html">eventi</a>, <a class="code" href="structevento.html">evento</a>* entity, <a class="code" href="structlocali.html">locali</a>* <a class="code" href="structlocali.html">locali</a>);</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="keywordtype">int</span> <a class="code" href="prenotazioni_8h.html#a229a152528fda5f07994e590717d8f66">vendiBiglietto</a>(<a class="code" href="structeventi.html">eventi</a>* <a class="code" href="structeventi.html">eventi</a>, <a class="code" href="structlocali.html">locali</a>* <a class="code" href="structlocali.html">locali</a>, <a class="code" href="structutenti.html">utenti</a>* <a class="code" href="structutenti.html">utenti</a>, <a class="code" href="structprenotazioni.html">prenotazioni</a>* <a class="code" href="structprenotazioni.html">prenotazioni</a>);</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="keywordtype">int</span> <a class="code" href="prenotazioni_8h.html#a68303dfb90c11b1d9af300ffeeb53897">rimborsaBiglietto</a>(<a class="code" href="structprenotazioni.html">prenotazioni</a>* <a class="code" href="structprenotazioni.html">prenotazioni</a>, <a class="code" href="structprenotazione.html">prenotazione</a>* entity);</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="keywordtype">int</span> <a class="code" href="prenotazioni_8h.html#a6f35068cce85533b524086739f117fce">differenzaDate</a>(<a class="code" href="structdata.html">data</a> <a class="code" href="structdata.html">data</a>, <span class="keyword">struct</span> <a class="code" href="structdata.html">data</a>* entity);</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<a class="code" href="structprenotazione.html">prenotazione</a>* <a class="code" href="prenotazioni_8h.html#a61d82e2bcd4a96e98b6a9b52244780b7">ricercaPrenotazione</a>(<a class="code" href="structprenotazioni.html">prenotazioni</a>* <a class="code" href="structprenotazioni.html">prenotazioni</a>, <span class="keywordtype">int</span> fila, <span class="keywordtype">int</span> posto, <span class="keywordtype">int</span> codiceEvento);</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<a class="code" href="structprenotazione.html">prenotazione</a>* <a class="code" href="prenotazioni_8h.html#a994cdc17c6f5b39ad8beea536f52dfc1">ricercaPrenotazioneByNumero</a>(<a class="code" href="structprenotazioni.html">prenotazioni</a>* <a class="code" href="structprenotazioni.html">prenotazioni</a>, <span class="keywordtype">int</span> numero);</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="keywordtype">void</span> <a class="code" href="prenotazioni_8h.html#a423ab2c8277b6f6d9e07133c0fdbe43a">visualizzaSpettatoriEvento</a>(<a class="code" href="structprenotazioni.html">prenotazioni</a>* <a class="code" href="structprenotazioni.html">prenotazioni</a>, <a class="code" href="structeventi.html">eventi</a>* <a class="code" href="structeventi.html">eventi</a>, <a class="code" href="structutenti.html">utenti</a>* <a class="code" href="structutenti.html">utenti</a>, <a class="code" href="structlocali.html">locali</a>* <a class="code" href="structlocali.html">locali</a>);</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="keywordtype">void</span> <a class="code" href="prenotazioni_8h.html#a01a7f99425d6e0e22af3404e0af34510">visualizzaEventiUtente</a>(<a class="code" href="structprenotazioni.html">prenotazioni</a>* <a class="code" href="structprenotazioni.html">prenotazioni</a>, <a class="code" href="structeventi.html">eventi</a>* <a class="code" href="structeventi.html">eventi</a>, <a class="code" href="structutenti.html">utenti</a>* <a class="code" href="structutenti.html">utenti</a>, <a class="code" href="structlocali.html">locali</a>* <a class="code" href="structlocali.html">locali</a>);</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="keywordtype">void</span> <a class="code" href="prenotazioni_8h.html#a1e806a97c25c72b2c8038c4745626041">visualizzaIncassoEvento</a>(<a class="code" href="structeventi.html">eventi</a>* <a class="code" href="structeventi.html">eventi</a>, <a class="code" href="structprenotazioni.html">prenotazioni</a>* <a class="code" href="structprenotazioni.html">prenotazioni</a>, <a class="code" href="structlocali.html">locali</a>* <a class="code" href="structlocali.html">locali</a>);</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="keywordtype">void</span> <a class="code" href="prenotazioni_8h.html#ab2c8e61dfd2c87373d1f76dba7e9db3f">ordinaEventi</a>(<a class="code" href="structeventi.html">eventi</a>* <a class="code" href="structeventi.html">eventi</a>, <span class="keywordtype">int</span>* memory, <span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> size);</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aeventi_8h_html"><div class="ttname"><a href="eventi_8h.html">eventi.h</a></div></div>
+<div class="ttc" id="alocali_8h_html"><div class="ttname"><a href="locali_8h.html">locali.h</a></div></div>
+<div class="ttc" id="aprenotazioni_8h_html_a01a7f99425d6e0e22af3404e0af34510"><div class="ttname"><a href="prenotazioni_8h.html#a01a7f99425d6e0e22af3404e0af34510">visualizzaEventiUtente</a></div><div class="ttdeci">void visualizzaEventiUtente(prenotazioni *prenotazioni, eventi *eventi, utenti *utenti, locali *locali)</div><div class="ttdef"><b>Definition:</b> prenotazioni.c:701</div></div>
+<div class="ttc" id="aprenotazioni_8h_html_a022fed93768e1f2edb5546a793d8cdeb"><div class="ttname"><a href="prenotazioni_8h.html#a022fed93768e1f2edb5546a793d8cdeb">prenotazioni</a></div><div class="ttdeci">struct prenotazioni prenotazioni</div></div>
+<div class="ttc" id="aprenotazioni_8h_html_a1e806a97c25c72b2c8038c4745626041"><div class="ttname"><a href="prenotazioni_8h.html#a1e806a97c25c72b2c8038c4745626041">visualizzaIncassoEvento</a></div><div class="ttdeci">void visualizzaIncassoEvento(eventi *eventi, prenotazioni *prenotazioni, locali *locali)</div><div class="ttdef"><b>Definition:</b> prenotazioni.c:804</div></div>
+<div class="ttc" id="aprenotazioni_8h_html_a229a152528fda5f07994e590717d8f66"><div class="ttname"><a href="prenotazioni_8h.html#a229a152528fda5f07994e590717d8f66">vendiBiglietto</a></div><div class="ttdeci">int vendiBiglietto(eventi *eventi, locali *locali, utenti *utenti, prenotazioni *prenotazioni)</div><div class="ttdef"><b>Definition:</b> prenotazioni.c:353</div></div>
+<div class="ttc" id="aprenotazioni_8h_html_a29733be0a25ba4bc00fdad682d2f0287"><div class="ttname"><a href="prenotazioni_8h.html#a29733be0a25ba4bc00fdad682d2f0287">caricaPrenotazioni</a></div><div class="ttdeci">int caricaPrenotazioni(prenotazioni *prenotazioni, struct index *indexs)</div><div class="ttdef"><b>Definition:</b> prenotazioni.c:15</div></div>
+<div class="ttc" id="aprenotazioni_8h_html_a2ad2cfa579a1df292a565cd92563988b"><div class="ttname"><a href="prenotazioni_8h.html#a2ad2cfa579a1df292a565cd92563988b">prenotazione</a></div><div class="ttdeci">struct prenotazione prenotazione</div></div>
+<div class="ttc" id="aprenotazioni_8h_html_a423ab2c8277b6f6d9e07133c0fdbe43a"><div class="ttname"><a href="prenotazioni_8h.html#a423ab2c8277b6f6d9e07133c0fdbe43a">visualizzaSpettatoriEvento</a></div><div class="ttdeci">void visualizzaSpettatoriEvento(prenotazioni *prenotazioni, eventi *eventi, utenti *utenti, locali *locali)</div><div class="ttdef"><b>Definition:</b> prenotazioni.c:638</div></div>
+<div class="ttc" id="aprenotazioni_8h_html_a61d82e2bcd4a96e98b6a9b52244780b7"><div class="ttname"><a href="prenotazioni_8h.html#a61d82e2bcd4a96e98b6a9b52244780b7">ricercaPrenotazione</a></div><div class="ttdeci">prenotazione * ricercaPrenotazione(prenotazioni *prenotazioni, int fila, int posto, int codiceEvento)</div><div class="ttdef"><b>Definition:</b> prenotazioni.c:589</div></div>
+<div class="ttc" id="aprenotazioni_8h_html_a68303dfb90c11b1d9af300ffeeb53897"><div class="ttname"><a href="prenotazioni_8h.html#a68303dfb90c11b1d9af300ffeeb53897">rimborsaBiglietto</a></div><div class="ttdeci">int rimborsaBiglietto(prenotazioni *prenotazioni, prenotazione *entity)</div><div class="ttdef"><b>Definition:</b> prenotazioni.c:169</div></div>
+<div class="ttc" id="aprenotazioni_8h_html_a6f35068cce85533b524086739f117fce"><div class="ttname"><a href="prenotazioni_8h.html#a6f35068cce85533b524086739f117fce">differenzaDate</a></div><div class="ttdeci">int differenzaDate(data data, struct data *entity)</div><div class="ttdef"><b>Definition:</b> prenotazioni.c:197</div></div>
+<div class="ttc" id="aprenotazioni_8h_html_a994cdc17c6f5b39ad8beea536f52dfc1"><div class="ttname"><a href="prenotazioni_8h.html#a994cdc17c6f5b39ad8beea536f52dfc1">ricercaPrenotazioneByNumero</a></div><div class="ttdeci">prenotazione * ricercaPrenotazioneByNumero(prenotazioni *prenotazioni, int numero)</div><div class="ttdef"><b>Definition:</b> prenotazioni.c:612</div></div>
+<div class="ttc" id="aprenotazioni_8h_html_aa3e04fc2bd7adb23308413033df5a321"><div class="ttname"><a href="prenotazioni_8h.html#aa3e04fc2bd7adb23308413033df5a321">visualizzaDisponibilitaSala</a></div><div class="ttdeci">void visualizzaDisponibilitaSala(prenotazioni *prenotazioni, eventi *eventi, evento *entity, locali *locali)</div><div class="ttdef"><b>Definition:</b> prenotazioni.c:244</div></div>
+<div class="ttc" id="aprenotazioni_8h_html_aac6a608850a02e37e49a2d3f780ad681"><div class="ttname"><a href="prenotazioni_8h.html#aac6a608850a02e37e49a2d3f780ad681">salvaPrenotazioni</a></div><div class="ttdeci">int salvaPrenotazioni(prenotazioni *prenotazioni, struct index *indexs)</div><div class="ttdef"><b>Definition:</b> prenotazioni.c:84</div></div>
+<div class="ttc" id="aprenotazioni_8h_html_ab2c8e61dfd2c87373d1f76dba7e9db3f"><div class="ttname"><a href="prenotazioni_8h.html#ab2c8e61dfd2c87373d1f76dba7e9db3f">ordinaEventi</a></div><div class="ttdeci">void ordinaEventi(eventi *eventi, int *memory, const unsigned int size)</div><div class="ttdef"><b>Definition:</b> prenotazioni.c:847</div></div>
+<div class="ttc" id="aprenotazioni_8h_html_ac6177c072b2369ac4b8a02843c47aecf"><div class="ttname"><a href="prenotazioni_8h.html#ac6177c072b2369ac4b8a02843c47aecf">visualizzaBiglietto</a></div><div class="ttdeci">void visualizzaBiglietto(char *nomeEvento, int nBiglietto, data dataEvento, char *nickname, int nFila, int nPoltrona, char *nomeLocale, float importo)</div><div class="ttdef"><b>Definition:</b> prenotazioni.c:132</div></div>
+<div class="ttc" id="astructdata_html"><div class="ttname"><a href="structdata.html">data</a></div><div class="ttdef"><b>Definition:</b> utils.h:15</div></div>
+<div class="ttc" id="astructeventi_html"><div class="ttname"><a href="structeventi.html">eventi</a></div><div class="ttdef"><b>Definition:</b> eventi.h:19</div></div>
+<div class="ttc" id="astructevento_html"><div class="ttname"><a href="structevento.html">evento</a></div><div class="ttdef"><b>Definition:</b> eventi.h:7</div></div>
+<div class="ttc" id="astructindex_html"><div class="ttname"><a href="structindex.html">index</a></div><div class="ttdef"><b>Definition:</b> utils.h:9</div></div>
+<div class="ttc" id="astructlocali_html"><div class="ttname"><a href="structlocali.html">locali</a></div><div class="ttdef"><b>Definition:</b> locali.h:13</div></div>
+<div class="ttc" id="astructprenotazione_html"><div class="ttname"><a href="structprenotazione.html">prenotazione</a></div><div class="ttdef"><b>Definition:</b> prenotazioni.h:9</div></div>
+<div class="ttc" id="astructprenotazione_html_a12ab93e0d3cb049cb91a8ae3d0906ffa"><div class="ttname"><a href="structprenotazione.html#a12ab93e0d3cb049cb91a8ae3d0906ffa">prenotazione::fila</a></div><div class="ttdeci">int fila</div><div class="ttdef"><b>Definition:</b> prenotazioni.h:13</div></div>
+<div class="ttc" id="astructprenotazione_html_a2c30f43104974e72e2809fb4569804b0"><div class="ttname"><a href="structprenotazione.html#a2c30f43104974e72e2809fb4569804b0">prenotazione::numero</a></div><div class="ttdeci">int numero</div><div class="ttdef"><b>Definition:</b> prenotazioni.h:10</div></div>
+<div class="ttc" id="astructprenotazione_html_a46b5bfde285929a75811b2421107395c"><div class="ttname"><a href="structprenotazione.html#a46b5bfde285929a75811b2421107395c">prenotazione::importo</a></div><div class="ttdeci">float importo</div><div class="ttdef"><b>Definition:</b> prenotazioni.h:15</div></div>
+<div class="ttc" id="astructprenotazione_html_a997e4e90011af4b713da260c179374e8"><div class="ttname"><a href="structprenotazione.html#a997e4e90011af4b713da260c179374e8">prenotazione::n_poltrona</a></div><div class="ttdeci">int n_poltrona</div><div class="ttdef"><b>Definition:</b> prenotazioni.h:14</div></div>
+<div class="ttc" id="astructprenotazione_html_aa6d558e88ec53c1d8afab982c77d30a3"><div class="ttname"><a href="structprenotazione.html#aa6d558e88ec53c1d8afab982c77d30a3">prenotazione::nickname</a></div><div class="ttdeci">char nickname[16]</div><div class="ttdef"><b>Definition:</b> prenotazioni.h:12</div></div>
+<div class="ttc" id="astructprenotazione_html_afe04d4113ae6a93a1b065da00e5c9130"><div class="ttname"><a href="structprenotazione.html#afe04d4113ae6a93a1b065da00e5c9130">prenotazione::evento</a></div><div class="ttdeci">int evento</div><div class="ttdef"><b>Definition:</b> prenotazioni.h:11</div></div>
+<div class="ttc" id="astructprenotazioni_html"><div class="ttname"><a href="structprenotazioni.html">prenotazioni</a></div><div class="ttdef"><b>Definition:</b> prenotazioni.h:18</div></div>
+<div class="ttc" id="astructprenotazioni_html_a439227feff9d7f55384e8780cfc2eb82"><div class="ttname"><a href="structprenotazioni.html#a439227feff9d7f55384e8780cfc2eb82">prenotazioni::size</a></div><div class="ttdeci">int size</div><div class="ttdef"><b>Definition:</b> prenotazioni.h:20</div></div>
+<div class="ttc" id="astructprenotazioni_html_a95e9e0f8a692321b83a2e0ce2789c485"><div class="ttname"><a href="structprenotazioni.html#a95e9e0f8a692321b83a2e0ce2789c485">prenotazioni::index</a></div><div class="ttdeci">int * index</div><div class="ttdef"><b>Definition:</b> prenotazioni.h:21</div></div>
+<div class="ttc" id="astructprenotazioni_html_afada8df0d9d8310dd058a083a4661941"><div class="ttname"><a href="structprenotazioni.html#afada8df0d9d8310dd058a083a4661941">prenotazioni::array</a></div><div class="ttdeci">prenotazione * array</div><div class="ttdef"><b>Definition:</b> prenotazioni.h:19</div></div>
+<div class="ttc" id="astructutenti_html"><div class="ttname"><a href="structutenti.html">utenti</a></div><div class="ttdef"><b>Definition:</b> utenti.h:20</div></div>
+<div class="ttc" id="autenti_8h_html"><div class="ttname"><a href="utenti_8h.html">utenti.h</a></div></div>
+<div class="ttc" id="autils_8h_html"><div class="ttname"><a href="utils_8h.html">utils.h</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generato da&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>

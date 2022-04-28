@@ -1,0 +1,151 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>biallo&amp;digirolamo_traccia4:  File sorgente libs/eventi.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">biallo&amp;digirolamo_traccia4
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generato da Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Cerca','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Cerca');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_6719ab1f1f7655efc2fa43f7eb574fd1.html">libs</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">eventi.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="eventi_8h.html">Vai alla documentazione di questo file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef eventi_flag</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define eventi_flag</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="utils_8h.html">utils.h</a>&quot;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="locali_8h.html">locali.h</a>&quot;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160; </div>
+<div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="structevento.html">    7</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code" href="structevento.html">evento</a> {</div>
+<div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="structevento.html#a5b3eddf42a0877307f85f61eec62839d">    8</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structevento.html#a5b3eddf42a0877307f85f61eec62839d">codice</a>;</div>
+<div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="structevento.html#ad9b32a94f9054fd81f59b1118b8d53d2">    9</a></span>&#160;    <span class="keywordtype">char</span> <a class="code" href="structevento.html#ad9b32a94f9054fd81f59b1118b8d53d2">nome</a>[50];</div>
+<div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="structevento.html#ace52fad5f84af995a7f52067c13be3d7">   10</a></span>&#160;    <a class="code" href="structdata.html">data</a> <a class="code" href="structevento.html#ace52fad5f84af995a7f52067c13be3d7">data</a>;</div>
+<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="structevento.html#a3c32840ee08d42769af69c41c91cd4f5">   11</a></span>&#160;    <a class="code" href="structorario.html">orario</a> <a class="code" href="structevento.html#a3c32840ee08d42769af69c41c91cd4f5">oraInizio</a>;</div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="structevento.html#a1982e045081764081ff3e50c7fd384ef">   12</a></span>&#160;    <a class="code" href="structorario.html">orario</a> <a class="code" href="structevento.html#a1982e045081764081ff3e50c7fd384ef">oraFine</a>;</div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="structevento.html#a7b8d75c674ec73fd35e3f7059778a491">   13</a></span>&#160;    <span class="keywordtype">char</span> <a class="code" href="structevento.html#a7b8d75c674ec73fd35e3f7059778a491">ospite</a>[50];</div>
+<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="structevento.html#a9e03c2fcfc0c621e059a31791c5de1d0">   14</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structevento.html#a9e03c2fcfc0c621e059a31791c5de1d0">locale</a>;</div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="structevento.html#a548dfacb556cae73cdc46b2b8e046724">   15</a></span>&#160;    <span class="keywordtype">float</span> <a class="code" href="structevento.html#a548dfacb556cae73cdc46b2b8e046724">costo_prima_fila</a>;</div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="structevento.html#a21c1b1503311bcd8d13f0d5688684979">   16</a></span>&#160;    <span class="keywordtype">float</span> <a class="code" href="structevento.html#a21c1b1503311bcd8d13f0d5688684979">costo_ultima_fila</a>;</div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="eventi_8h.html#a0f1ff9723c23e3de2932eefaa6ebe28c">   17</a></span>&#160;} <a class="code" href="eventi_8h.html#a0f1ff9723c23e3de2932eefaa6ebe28c">evento</a>;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="structeventi.html">   19</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code" href="structeventi.html">eventi</a> {</div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="structeventi.html#a2cf0c6d885355b60a810d9544be399ca">   20</a></span>&#160;    <a class="code" href="structevento.html">evento</a>* <a class="code" href="structeventi.html#a2cf0c6d885355b60a810d9544be399ca">array</a>;</div>
+<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="structeventi.html#a439227feff9d7f55384e8780cfc2eb82">   21</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structeventi.html#a439227feff9d7f55384e8780cfc2eb82">size</a>;</div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="structeventi.html#a95e9e0f8a692321b83a2e0ce2789c485">   22</a></span>&#160;    <span class="keywordtype">int</span>* <a class="code" href="structeventi.html#a95e9e0f8a692321b83a2e0ce2789c485">index</a>; </div>
+<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="eventi_8h.html#a98852ce3649102f51aac24e0824ddfe7">   23</a></span>&#160;} <a class="code" href="eventi_8h.html#a98852ce3649102f51aac24e0824ddfe7">eventi</a>;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keywordtype">int</span> <a class="code" href="eventi_8h.html#a382c55ca3efeb465c09e4e618ac4c287">caricaEventi</a>(<a class="code" href="structeventi.html">eventi</a>* <a class="code" href="structeventi.html">eventi</a>, <span class="keyword">struct</span> <a class="code" href="structindex.html">index</a>* indexs, <a class="code" href="structlocali.html">locali</a>* <a class="code" href="structlocali.html">locali</a>);</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keywordtype">int</span> <a class="code" href="eventi_8h.html#ae1d26585167d8bcb9ebaf7aa8deb8e4d">salvaEventi</a>(<a class="code" href="structeventi.html">eventi</a>* <a class="code" href="structeventi.html">eventi</a>, <span class="keyword">struct</span> <a class="code" href="structindex.html">index</a>* indexs, <a class="code" href="structlocali.html">locali</a>* <a class="code" href="structlocali.html">locali</a>);</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keywordtype">int</span> <a class="code" href="eventi_8h.html#a64330e45fc0b496994f50f6c4fac27e6">aggiungiEvento</a>(<a class="code" href="structeventi.html">eventi</a>* <a class="code" href="structeventi.html">eventi</a>, <a class="code" href="structlocali.html">locali</a>* <a class="code" href="structlocali.html">locali</a>);</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="keywordtype">int</span> <a class="code" href="eventi_8h.html#a89a2437c6afdd74411ec21cb56bc62ec">modificaEvento</a>(<a class="code" href="structeventi.html">eventi</a>* <a class="code" href="structeventi.html">eventi</a>, <a class="code" href="structlocali.html">locali</a>* <a class="code" href="structlocali.html">locali</a>);</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="keywordtype">int</span> <a class="code" href="eventi_8h.html#a91a48c7ba2508b5b776fde8fa33eb851">eliminaEvento</a>(<a class="code" href="structeventi.html">eventi</a>* <a class="code" href="structeventi.html">eventi</a>, <a class="code" href="structevento.html">evento</a>* entity, <a class="code" href="structlocali.html">locali</a>* <a class="code" href="structlocali.html">locali</a>);</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="keywordtype">void</span> <a class="code" href="eventi_8h.html#ad622c0fc599a16f5a349fe53c7addb49">visualizzaEvento</a>(<a class="code" href="structeventi.html">eventi</a>* <a class="code" href="structeventi.html">eventi</a>, <a class="code" href="structevento.html">evento</a>* entity, <a class="code" href="structlocali.html">locali</a>* <a class="code" href="structlocali.html">locali</a>);</div>
+<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="eventi_8h.html#a761d8d5e7be88fe1fb2167b636b8658b">   33</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="eventi_8h.html#a761d8d5e7be88fe1fb2167b636b8658b">visualizzaEventi</a>(<a class="code" href="structeventi.html">eventi</a>* <a class="code" href="structeventi.html">eventi</a>);</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<a class="code" href="structevento.html">evento</a>* <a class="code" href="eventi_8h.html#aa5feef18f18d625b3c9a9048c184a70e">ricercaEventoByCodice</a>(<a class="code" href="structeventi.html">eventi</a>* <a class="code" href="structeventi.html">eventi</a>, <span class="keywordtype">int</span> codice);</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<a class="code" href="structevento.html">evento</a>* <a class="code" href="eventi_8h.html#ae6764baa6535d0a7bfe1503aecd37535">ricercaEventoByData</a>(<a class="code" href="structeventi.html">eventi</a>* <a class="code" href="structeventi.html">eventi</a> , <a class="code" href="structdata.html">data</a> <a class="code" href="structdata.html">data</a>, <a class="code" href="structlocali.html">locali</a>* <a class="code" href="structlocali.html">locali</a>);</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<a class="code" href="structevento.html">evento</a>* <a class="code" href="eventi_8h.html#a177f45f15826e1f81b7198315f6b39b5">ricercaEventoByString</a>(<a class="code" href="structeventi.html">eventi</a>* <a class="code" href="structeventi.html">eventi</a> , <span class="keywordtype">char</span>* <span class="keywordtype">string</span>, <span class="keywordtype">int</span> type, <a class="code" href="structlocali.html">locali</a>* <a class="code" href="structlocali.html">locali</a>);</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<a class="code" href="structevento.html">evento</a>* <a class="code" href="eventi_8h.html#a8b53e2acb04066ffe9ca65c00eaf3cba">ricercaEvento</a>(<a class="code" href="structeventi.html">eventi</a>* <a class="code" href="structeventi.html">eventi</a>, <a class="code" href="structlocali.html">locali</a>* <a class="code" href="structlocali.html">locali</a>);</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aeventi_8h_html_a0f1ff9723c23e3de2932eefaa6ebe28c"><div class="ttname"><a href="eventi_8h.html#a0f1ff9723c23e3de2932eefaa6ebe28c">evento</a></div><div class="ttdeci">struct evento evento</div></div>
+<div class="ttc" id="aeventi_8h_html_a177f45f15826e1f81b7198315f6b39b5"><div class="ttname"><a href="eventi_8h.html#a177f45f15826e1f81b7198315f6b39b5">ricercaEventoByString</a></div><div class="ttdeci">evento * ricercaEventoByString(eventi *eventi, char *string, int type, locali *locali)</div><div class="ttdef"><b>Definition:</b> eventi.c:556</div></div>
+<div class="ttc" id="aeventi_8h_html_a382c55ca3efeb465c09e4e618ac4c287"><div class="ttname"><a href="eventi_8h.html#a382c55ca3efeb465c09e4e618ac4c287">caricaEventi</a></div><div class="ttdeci">int caricaEventi(eventi *eventi, struct index *indexs, locali *locali)</div><div class="ttdef"><b>Definition:</b> eventi.c:16</div></div>
+<div class="ttc" id="aeventi_8h_html_a64330e45fc0b496994f50f6c4fac27e6"><div class="ttname"><a href="eventi_8h.html#a64330e45fc0b496994f50f6c4fac27e6">aggiungiEvento</a></div><div class="ttdeci">int aggiungiEvento(eventi *eventi, locali *locali)</div><div class="ttdef"><b>Definition:</b> eventi.c:172</div></div>
+<div class="ttc" id="aeventi_8h_html_a761d8d5e7be88fe1fb2167b636b8658b"><div class="ttname"><a href="eventi_8h.html#a761d8d5e7be88fe1fb2167b636b8658b">visualizzaEventi</a></div><div class="ttdeci">void visualizzaEventi(eventi *eventi)</div></div>
+<div class="ttc" id="aeventi_8h_html_a89a2437c6afdd74411ec21cb56bc62ec"><div class="ttname"><a href="eventi_8h.html#a89a2437c6afdd74411ec21cb56bc62ec">modificaEvento</a></div><div class="ttdeci">int modificaEvento(eventi *eventi, locali *locali)</div><div class="ttdef"><b>Definition:</b> eventi.c:862</div></div>
+<div class="ttc" id="aeventi_8h_html_a8b53e2acb04066ffe9ca65c00eaf3cba"><div class="ttname"><a href="eventi_8h.html#a8b53e2acb04066ffe9ca65c00eaf3cba">ricercaEvento</a></div><div class="ttdeci">evento * ricercaEvento(eventi *eventi, locali *locali)</div><div class="ttdef"><b>Definition:</b> eventi.c:654</div></div>
+<div class="ttc" id="aeventi_8h_html_a91a48c7ba2508b5b776fde8fa33eb851"><div class="ttname"><a href="eventi_8h.html#a91a48c7ba2508b5b776fde8fa33eb851">eliminaEvento</a></div><div class="ttdeci">int eliminaEvento(eventi *eventi, evento *entity, locali *locali)</div><div class="ttdef"><b>Definition:</b> eventi.c:1242</div></div>
+<div class="ttc" id="aeventi_8h_html_a98852ce3649102f51aac24e0824ddfe7"><div class="ttname"><a href="eventi_8h.html#a98852ce3649102f51aac24e0824ddfe7">eventi</a></div><div class="ttdeci">struct eventi eventi</div></div>
+<div class="ttc" id="aeventi_8h_html_aa5feef18f18d625b3c9a9048c184a70e"><div class="ttname"><a href="eventi_8h.html#aa5feef18f18d625b3c9a9048c184a70e">ricercaEventoByCodice</a></div><div class="ttdeci">evento * ricercaEventoByCodice(eventi *eventi, int codice)</div><div class="ttdef"><b>Definition:</b> eventi.c:770</div></div>
+<div class="ttc" id="aeventi_8h_html_ad622c0fc599a16f5a349fe53c7addb49"><div class="ttname"><a href="eventi_8h.html#ad622c0fc599a16f5a349fe53c7addb49">visualizzaEvento</a></div><div class="ttdeci">void visualizzaEvento(eventi *eventi, evento *entity, locali *locali)</div><div class="ttdef"><b>Definition:</b> eventi.c:797</div></div>
+<div class="ttc" id="aeventi_8h_html_ae1d26585167d8bcb9ebaf7aa8deb8e4d"><div class="ttname"><a href="eventi_8h.html#ae1d26585167d8bcb9ebaf7aa8deb8e4d">salvaEventi</a></div><div class="ttdeci">int salvaEventi(eventi *eventi, struct index *indexs, locali *locali)</div><div class="ttdef"><b>Definition:</b> eventi.c:120</div></div>
+<div class="ttc" id="aeventi_8h_html_ae6764baa6535d0a7bfe1503aecd37535"><div class="ttname"><a href="eventi_8h.html#ae6764baa6535d0a7bfe1503aecd37535">ricercaEventoByData</a></div><div class="ttdeci">evento * ricercaEventoByData(eventi *eventi, data data, locali *locali)</div><div class="ttdef"><b>Definition:</b> eventi.c:468</div></div>
+<div class="ttc" id="alocali_8h_html"><div class="ttname"><a href="locali_8h.html">locali.h</a></div></div>
+<div class="ttc" id="astructdata_html"><div class="ttname"><a href="structdata.html">data</a></div><div class="ttdef"><b>Definition:</b> utils.h:15</div></div>
+<div class="ttc" id="astructeventi_html"><div class="ttname"><a href="structeventi.html">eventi</a></div><div class="ttdef"><b>Definition:</b> eventi.h:19</div></div>
+<div class="ttc" id="astructeventi_html_a2cf0c6d885355b60a810d9544be399ca"><div class="ttname"><a href="structeventi.html#a2cf0c6d885355b60a810d9544be399ca">eventi::array</a></div><div class="ttdeci">evento * array</div><div class="ttdef"><b>Definition:</b> eventi.h:20</div></div>
+<div class="ttc" id="astructeventi_html_a439227feff9d7f55384e8780cfc2eb82"><div class="ttname"><a href="structeventi.html#a439227feff9d7f55384e8780cfc2eb82">eventi::size</a></div><div class="ttdeci">int size</div><div class="ttdef"><b>Definition:</b> eventi.h:21</div></div>
+<div class="ttc" id="astructeventi_html_a95e9e0f8a692321b83a2e0ce2789c485"><div class="ttname"><a href="structeventi.html#a95e9e0f8a692321b83a2e0ce2789c485">eventi::index</a></div><div class="ttdeci">int * index</div><div class="ttdef"><b>Definition:</b> eventi.h:22</div></div>
+<div class="ttc" id="astructevento_html"><div class="ttname"><a href="structevento.html">evento</a></div><div class="ttdef"><b>Definition:</b> eventi.h:7</div></div>
+<div class="ttc" id="astructevento_html_a1982e045081764081ff3e50c7fd384ef"><div class="ttname"><a href="structevento.html#a1982e045081764081ff3e50c7fd384ef">evento::oraFine</a></div><div class="ttdeci">orario oraFine</div><div class="ttdef"><b>Definition:</b> eventi.h:12</div></div>
+<div class="ttc" id="astructevento_html_a21c1b1503311bcd8d13f0d5688684979"><div class="ttname"><a href="structevento.html#a21c1b1503311bcd8d13f0d5688684979">evento::costo_ultima_fila</a></div><div class="ttdeci">float costo_ultima_fila</div><div class="ttdef"><b>Definition:</b> eventi.h:16</div></div>
+<div class="ttc" id="astructevento_html_a3c32840ee08d42769af69c41c91cd4f5"><div class="ttname"><a href="structevento.html#a3c32840ee08d42769af69c41c91cd4f5">evento::oraInizio</a></div><div class="ttdeci">orario oraInizio</div><div class="ttdef"><b>Definition:</b> eventi.h:11</div></div>
+<div class="ttc" id="astructevento_html_a548dfacb556cae73cdc46b2b8e046724"><div class="ttname"><a href="structevento.html#a548dfacb556cae73cdc46b2b8e046724">evento::costo_prima_fila</a></div><div class="ttdeci">float costo_prima_fila</div><div class="ttdef"><b>Definition:</b> eventi.h:15</div></div>
+<div class="ttc" id="astructevento_html_a5b3eddf42a0877307f85f61eec62839d"><div class="ttname"><a href="structevento.html#a5b3eddf42a0877307f85f61eec62839d">evento::codice</a></div><div class="ttdeci">int codice</div><div class="ttdef"><b>Definition:</b> eventi.h:8</div></div>
+<div class="ttc" id="astructevento_html_a7b8d75c674ec73fd35e3f7059778a491"><div class="ttname"><a href="structevento.html#a7b8d75c674ec73fd35e3f7059778a491">evento::ospite</a></div><div class="ttdeci">char ospite[50]</div><div class="ttdef"><b>Definition:</b> eventi.h:13</div></div>
+<div class="ttc" id="astructevento_html_a9e03c2fcfc0c621e059a31791c5de1d0"><div class="ttname"><a href="structevento.html#a9e03c2fcfc0c621e059a31791c5de1d0">evento::locale</a></div><div class="ttdeci">int locale</div><div class="ttdef"><b>Definition:</b> eventi.h:14</div></div>
+<div class="ttc" id="astructevento_html_ace52fad5f84af995a7f52067c13be3d7"><div class="ttname"><a href="structevento.html#ace52fad5f84af995a7f52067c13be3d7">evento::data</a></div><div class="ttdeci">data data</div><div class="ttdef"><b>Definition:</b> eventi.h:10</div></div>
+<div class="ttc" id="astructevento_html_ad9b32a94f9054fd81f59b1118b8d53d2"><div class="ttname"><a href="structevento.html#ad9b32a94f9054fd81f59b1118b8d53d2">evento::nome</a></div><div class="ttdeci">char nome[50]</div><div class="ttdef"><b>Definition:</b> eventi.h:9</div></div>
+<div class="ttc" id="astructindex_html"><div class="ttname"><a href="structindex.html">index</a></div><div class="ttdef"><b>Definition:</b> utils.h:9</div></div>
+<div class="ttc" id="astructlocali_html"><div class="ttname"><a href="structlocali.html">locali</a></div><div class="ttdef"><b>Definition:</b> locali.h:13</div></div>
+<div class="ttc" id="astructorario_html"><div class="ttname"><a href="structorario.html">orario</a></div><div class="ttdef"><b>Definition:</b> utils.h:21</div></div>
+<div class="ttc" id="autils_8h_html"><div class="ttname"><a href="utils_8h.html">utils.h</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generato da&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>

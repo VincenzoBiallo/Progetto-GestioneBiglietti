@@ -1,0 +1,159 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>biallo&amp;digirolamo_traccia4:  File sorgente libs/utils.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">biallo&amp;digirolamo_traccia4
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generato da Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Cerca','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Cerca');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_6719ab1f1f7655efc2fa43f7eb574fd1.html">libs</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">utils.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="utils_8h.html">Vai alla documentazione di questo file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef utils_flag</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define utils_flag</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;stdio.h&gt;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;stdlib.h&gt;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;string.h&gt;</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &lt;ctype.h&gt;</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160; </div>
+<div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="structindex.html">    9</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structindex.html">index</a> {</div>
+<div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="structindex.html#a0935c629687025fc2be911867c2db0cb">   10</a></span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="structindex.html#a0935c629687025fc2be911867c2db0cb">evento</a>;</div>
+<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="structindex.html#ac6a443925a7d51e6664f1a9b0c5780b9">   11</a></span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="structindex.html#ac6a443925a7d51e6664f1a9b0c5780b9">locale</a>;</div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="structindex.html#a73a04d4a40382105730e9c71e3763f43">   12</a></span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="structindex.html#a73a04d4a40382105730e9c71e3763f43">prenotazione</a>;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;};</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="structdata.html">   15</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code" href="structdata.html">data</a> {</div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="structdata.html#a03c063c009dfa59316d2ce58666c7235">   16</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structdata.html#a03c063c009dfa59316d2ce58666c7235">giorno</a>;</div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="structdata.html#a04887a22945dc058f585392fc9fb0d07">   17</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structdata.html#a04887a22945dc058f585392fc9fb0d07">mese</a>;</div>
+<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="structdata.html#a641e63fefd1baea5836b5e70c74c5aa3">   18</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structdata.html#a641e63fefd1baea5836b5e70c74c5aa3">anno</a>;</div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="utils_8h.html#a493583f6fc164cf849745e01e4c04ab5">   19</a></span>&#160;} <a class="code" href="utils_8h.html#a493583f6fc164cf849745e01e4c04ab5">data</a>;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
+<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="structorario.html">   21</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code" href="structorario.html">orario</a> {</div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="structorario.html#aa2b74e08727f05e180669d8822966c0b">   22</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structorario.html#aa2b74e08727f05e180669d8822966c0b">ora</a>;</div>
+<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="structorario.html#afceab1e030049f1f6aaafebe5f22e047">   23</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structorario.html#afceab1e030049f1f6aaafebe5f22e047">minuto</a>;</div>
+<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="utils_8h.html#a495b9128e5da301362315212cc9af9b1">   24</a></span>&#160;} <a class="code" href="utils_8h.html#a495b9128e5da301362315212cc9af9b1">orario</a>;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keywordtype">void</span> <a class="code" href="utils_8h.html#aa13e6750e7507b0a68c1604a77fedc6b">caricaIndexs</a>(<span class="keyword">struct</span> <a class="code" href="structindex.html">index</a>* indexs);</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="keywordtype">void</span> <a class="code" href="utils_8h.html#ad359c906664ee3fc8df953bfb627e361">salvaIndexs</a>(<span class="keyword">struct</span> <a class="code" href="structindex.html">index</a>* indexs);</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="keywordtype">int</span> <a class="code" href="utils_8h.html#a15b6779036859723b53e0317c797a425">contaLinee</a>(FILE* filePointer);</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="keywordtype">int</span> <a class="code" href="utils_8h.html#a59714bad5855c41f4522a1fa61898e29">stringaValida</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> <span class="keywordtype">string</span>[], <span class="keyword">const</span> <span class="keywordtype">char</span>* alphabet);</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="keywordtype">char</span>* <a class="code" href="utils_8h.html#aa85d03448c1ed21bc6bdb0454c926a57">myParser</a>(<span class="keywordtype">char</span>** newString, <span class="keywordtype">char</span>* delimiter);</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="keywordtype">char</span>* <a class="code" href="utils_8h.html#a5dea0b9b25e3451f7c50bb6eb08094af">myLower</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> <span class="keywordtype">string</span>[]);</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
+<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="utils_8h.html#ac8e1ef14e29c09045976b776d0f53bb2a5a45057ec19bfd5c8f6412338d29b666">   34</a></span>&#160;<span class="keyword">enum</span> <a class="code" href="utils_8h.html#ac8e1ef14e29c09045976b776d0f53bb2">colori</a> {<a class="code" href="utils_8h.html#ac8e1ef14e29c09045976b776d0f53bb2a88ec7d5086d2469ba843c7fcceade8a6">DEFAULT</a>, <a class="code" href="utils_8h.html#ac8e1ef14e29c09045976b776d0f53bb2af31d451540fbe9019951dc44d57cada9">ROSSO</a>, <a class="code" href="utils_8h.html#ac8e1ef14e29c09045976b776d0f53bb2ab43fc5129914206a77c76e0cffd20df2">GIALLO</a>, <a class="code" href="utils_8h.html#ac8e1ef14e29c09045976b776d0f53bb2af9efd9e6bd17c0580d8a0432ba1b04a2">VERDE</a>, <a class="code" href="utils_8h.html#ac8e1ef14e29c09045976b776d0f53bb2a5a45057ec19bfd5c8f6412338d29b666">CELESTE</a>, <a class="code" href="utils_8h.html#ac8e1ef14e29c09045976b776d0f53bb2aaae736c7050d69ea102f212ce5380f3b">VIOLA</a>};</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="keywordtype">void</span> <a class="code" href="utils_8h.html#a8acf595f716e5856f643beaf9d0a21a8">setColor</a>(<span class="keyword">enum</span> <a class="code" href="utils_8h.html#ac8e1ef14e29c09045976b776d0f53bb2">colori</a> colore);</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="keywordtype">void</span> <a class="code" href="utils_8h.html#ab031d5875b9bee5685f77262ed08bb1d">inizializzaStringa</a>(<span class="keywordtype">char</span> stringa[], <span class="keywordtype">int</span> size);</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="keywordtype">int</span> <a class="code" href="utils_8h.html#aac1a6f1ce4b3ae30b633686a4e86c182">contaCifre</a>(<span class="keywordtype">int</span> numero);</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="keywordtype">float</span> <a class="code" href="utils_8h.html#a09500cd0e776800863a032261156f218">differenzaOrari</a>(<a class="code" href="structorario.html">orario</a> inizio, <a class="code" href="structorario.html">orario</a> fine);</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="keywordtype">int</span> <a class="code" href="utils_8h.html#af002d7b89b630460650609a581c1080a">inserisciData</a>(<a class="code" href="structdata.html">data</a>* memory);</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
+<div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="utils_8h.html#a1d8f5fb0707485e0ab2598c842f427b9afcc1fbb29c01a381a0663f409dbad741">   41</a></span>&#160;<span class="keyword">enum</span> <a class="code" href="utils_8h.html#a1d8f5fb0707485e0ab2598c842f427b9">TypeMerge</a> {<a class="code" href="utils_8h.html#a1d8f5fb0707485e0ab2598c842f427b9ae91331b5088ec2dffb2712949b67f872">_utenti</a>, <a class="code" href="utils_8h.html#a1d8f5fb0707485e0ab2598c842f427b9afcc1fbb29c01a381a0663f409dbad741">_eventi</a>, <a class="code" href="utils_8h.html#a1d8f5fb0707485e0ab2598c842f427b9a91e39552acb38bf374ebc66e40a4684a">_locali</a>, <a class="code" href="utils_8h.html#a1d8f5fb0707485e0ab2598c842f427b9a3d5c4515354bf0952a3d0ddbb21987cb">_prenotazioni</a>};</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="keywordtype">void</span> <a class="code" href="utils_8h.html#ab7f051585d9a5dea1d07ba7473677487">mergeSort</a>(<span class="keywordtype">void</span>* memory, <span class="keyword">enum</span> <a class="code" href="utils_8h.html#a1d8f5fb0707485e0ab2598c842f427b9">TypeMerge</a> type, <span class="keywordtype">int</span> inizio, <span class="keywordtype">int</span> fine);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="astructdata_html"><div class="ttname"><a href="structdata.html">data</a></div><div class="ttdef"><b>Definition:</b> utils.h:15</div></div>
+<div class="ttc" id="astructdata_html_a03c063c009dfa59316d2ce58666c7235"><div class="ttname"><a href="structdata.html#a03c063c009dfa59316d2ce58666c7235">data::giorno</a></div><div class="ttdeci">int giorno</div><div class="ttdef"><b>Definition:</b> utils.h:16</div></div>
+<div class="ttc" id="astructdata_html_a04887a22945dc058f585392fc9fb0d07"><div class="ttname"><a href="structdata.html#a04887a22945dc058f585392fc9fb0d07">data::mese</a></div><div class="ttdeci">int mese</div><div class="ttdef"><b>Definition:</b> utils.h:17</div></div>
+<div class="ttc" id="astructdata_html_a641e63fefd1baea5836b5e70c74c5aa3"><div class="ttname"><a href="structdata.html#a641e63fefd1baea5836b5e70c74c5aa3">data::anno</a></div><div class="ttdeci">int anno</div><div class="ttdef"><b>Definition:</b> utils.h:18</div></div>
+<div class="ttc" id="astructindex_html"><div class="ttname"><a href="structindex.html">index</a></div><div class="ttdef"><b>Definition:</b> utils.h:9</div></div>
+<div class="ttc" id="astructindex_html_a0935c629687025fc2be911867c2db0cb"><div class="ttname"><a href="structindex.html#a0935c629687025fc2be911867c2db0cb">index::evento</a></div><div class="ttdeci">unsigned int evento</div><div class="ttdef"><b>Definition:</b> utils.h:10</div></div>
+<div class="ttc" id="astructindex_html_a73a04d4a40382105730e9c71e3763f43"><div class="ttname"><a href="structindex.html#a73a04d4a40382105730e9c71e3763f43">index::prenotazione</a></div><div class="ttdeci">unsigned int prenotazione</div><div class="ttdef"><b>Definition:</b> utils.h:12</div></div>
+<div class="ttc" id="astructindex_html_ac6a443925a7d51e6664f1a9b0c5780b9"><div class="ttname"><a href="structindex.html#ac6a443925a7d51e6664f1a9b0c5780b9">index::locale</a></div><div class="ttdeci">unsigned int locale</div><div class="ttdef"><b>Definition:</b> utils.h:11</div></div>
+<div class="ttc" id="astructorario_html"><div class="ttname"><a href="structorario.html">orario</a></div><div class="ttdef"><b>Definition:</b> utils.h:21</div></div>
+<div class="ttc" id="astructorario_html_aa2b74e08727f05e180669d8822966c0b"><div class="ttname"><a href="structorario.html#aa2b74e08727f05e180669d8822966c0b">orario::ora</a></div><div class="ttdeci">int ora</div><div class="ttdef"><b>Definition:</b> utils.h:22</div></div>
+<div class="ttc" id="astructorario_html_afceab1e030049f1f6aaafebe5f22e047"><div class="ttname"><a href="structorario.html#afceab1e030049f1f6aaafebe5f22e047">orario::minuto</a></div><div class="ttdeci">int minuto</div><div class="ttdef"><b>Definition:</b> utils.h:23</div></div>
+<div class="ttc" id="autils_8h_html_a09500cd0e776800863a032261156f218"><div class="ttname"><a href="utils_8h.html#a09500cd0e776800863a032261156f218">differenzaOrari</a></div><div class="ttdeci">float differenzaOrari(orario inizio, orario fine)</div><div class="ttdef"><b>Definition:</b> utils.c:374</div></div>
+<div class="ttc" id="autils_8h_html_a15b6779036859723b53e0317c797a425"><div class="ttname"><a href="utils_8h.html#a15b6779036859723b53e0317c797a425">contaLinee</a></div><div class="ttdeci">int contaLinee(FILE *filePointer)</div><div class="ttdef"><b>Definition:</b> utils.c:74</div></div>
+<div class="ttc" id="autils_8h_html_a1d8f5fb0707485e0ab2598c842f427b9"><div class="ttname"><a href="utils_8h.html#a1d8f5fb0707485e0ab2598c842f427b9">TypeMerge</a></div><div class="ttdeci">TypeMerge</div><div class="ttdef"><b>Definition:</b> utils.h:41</div></div>
+<div class="ttc" id="autils_8h_html_a1d8f5fb0707485e0ab2598c842f427b9a3d5c4515354bf0952a3d0ddbb21987cb"><div class="ttname"><a href="utils_8h.html#a1d8f5fb0707485e0ab2598c842f427b9a3d5c4515354bf0952a3d0ddbb21987cb">_prenotazioni</a></div><div class="ttdeci">@ _prenotazioni</div><div class="ttdef"><b>Definition:</b> utils.h:41</div></div>
+<div class="ttc" id="autils_8h_html_a1d8f5fb0707485e0ab2598c842f427b9a91e39552acb38bf374ebc66e40a4684a"><div class="ttname"><a href="utils_8h.html#a1d8f5fb0707485e0ab2598c842f427b9a91e39552acb38bf374ebc66e40a4684a">_locali</a></div><div class="ttdeci">@ _locali</div><div class="ttdef"><b>Definition:</b> utils.h:41</div></div>
+<div class="ttc" id="autils_8h_html_a1d8f5fb0707485e0ab2598c842f427b9ae91331b5088ec2dffb2712949b67f872"><div class="ttname"><a href="utils_8h.html#a1d8f5fb0707485e0ab2598c842f427b9ae91331b5088ec2dffb2712949b67f872">_utenti</a></div><div class="ttdeci">@ _utenti</div><div class="ttdef"><b>Definition:</b> utils.h:41</div></div>
+<div class="ttc" id="autils_8h_html_a1d8f5fb0707485e0ab2598c842f427b9afcc1fbb29c01a381a0663f409dbad741"><div class="ttname"><a href="utils_8h.html#a1d8f5fb0707485e0ab2598c842f427b9afcc1fbb29c01a381a0663f409dbad741">_eventi</a></div><div class="ttdeci">@ _eventi</div><div class="ttdef"><b>Definition:</b> utils.h:41</div></div>
+<div class="ttc" id="autils_8h_html_a493583f6fc164cf849745e01e4c04ab5"><div class="ttname"><a href="utils_8h.html#a493583f6fc164cf849745e01e4c04ab5">data</a></div><div class="ttdeci">struct data data</div></div>
+<div class="ttc" id="autils_8h_html_a495b9128e5da301362315212cc9af9b1"><div class="ttname"><a href="utils_8h.html#a495b9128e5da301362315212cc9af9b1">orario</a></div><div class="ttdeci">struct orario orario</div></div>
+<div class="ttc" id="autils_8h_html_a59714bad5855c41f4522a1fa61898e29"><div class="ttname"><a href="utils_8h.html#a59714bad5855c41f4522a1fa61898e29">stringaValida</a></div><div class="ttdeci">int stringaValida(const char string[], const char *alphabet)</div><div class="ttdef"><b>Definition:</b> utils.c:106</div></div>
+<div class="ttc" id="autils_8h_html_a5dea0b9b25e3451f7c50bb6eb08094af"><div class="ttname"><a href="utils_8h.html#a5dea0b9b25e3451f7c50bb6eb08094af">myLower</a></div><div class="ttdeci">char * myLower(const char string[])</div><div class="ttdef"><b>Definition:</b> utils.c:164</div></div>
+<div class="ttc" id="autils_8h_html_a8acf595f716e5856f643beaf9d0a21a8"><div class="ttname"><a href="utils_8h.html#a8acf595f716e5856f643beaf9d0a21a8">setColor</a></div><div class="ttdeci">void setColor(enum colori colore)</div><div class="ttdef"><b>Definition:</b> utils.c:183</div></div>
+<div class="ttc" id="autils_8h_html_aa13e6750e7507b0a68c1604a77fedc6b"><div class="ttname"><a href="utils_8h.html#aa13e6750e7507b0a68c1604a77fedc6b">caricaIndexs</a></div><div class="ttdeci">void caricaIndexs(struct index *indexs)</div><div class="ttdef"><b>Definition:</b> utils.c:16</div></div>
+<div class="ttc" id="autils_8h_html_aa85d03448c1ed21bc6bdb0454c926a57"><div class="ttname"><a href="utils_8h.html#aa85d03448c1ed21bc6bdb0454c926a57">myParser</a></div><div class="ttdeci">char * myParser(char **newString, char *delimiter)</div><div class="ttdef"><b>Definition:</b> utils.c:127</div></div>
+<div class="ttc" id="autils_8h_html_aac1a6f1ce4b3ae30b633686a4e86c182"><div class="ttname"><a href="utils_8h.html#aac1a6f1ce4b3ae30b633686a4e86c182">contaCifre</a></div><div class="ttdeci">int contaCifre(int numero)</div><div class="ttdef"><b>Definition:</b> utils.c:230</div></div>
+<div class="ttc" id="autils_8h_html_ab031d5875b9bee5685f77262ed08bb1d"><div class="ttname"><a href="utils_8h.html#ab031d5875b9bee5685f77262ed08bb1d">inizializzaStringa</a></div><div class="ttdeci">void inizializzaStringa(char stringa[], int size)</div><div class="ttdef"><b>Definition:</b> utils.c:214</div></div>
+<div class="ttc" id="autils_8h_html_ab7f051585d9a5dea1d07ba7473677487"><div class="ttname"><a href="utils_8h.html#ab7f051585d9a5dea1d07ba7473677487">mergeSort</a></div><div class="ttdeci">void mergeSort(void *memory, enum TypeMerge type, int inizio, int fine)</div><div class="ttdef"><b>Definition:</b> utils.c:339</div></div>
+<div class="ttc" id="autils_8h_html_ac8e1ef14e29c09045976b776d0f53bb2"><div class="ttname"><a href="utils_8h.html#ac8e1ef14e29c09045976b776d0f53bb2">colori</a></div><div class="ttdeci">colori</div><div class="ttdef"><b>Definition:</b> utils.h:34</div></div>
+<div class="ttc" id="autils_8h_html_ac8e1ef14e29c09045976b776d0f53bb2a5a45057ec19bfd5c8f6412338d29b666"><div class="ttname"><a href="utils_8h.html#ac8e1ef14e29c09045976b776d0f53bb2a5a45057ec19bfd5c8f6412338d29b666">CELESTE</a></div><div class="ttdeci">@ CELESTE</div><div class="ttdef"><b>Definition:</b> utils.h:34</div></div>
+<div class="ttc" id="autils_8h_html_ac8e1ef14e29c09045976b776d0f53bb2a88ec7d5086d2469ba843c7fcceade8a6"><div class="ttname"><a href="utils_8h.html#ac8e1ef14e29c09045976b776d0f53bb2a88ec7d5086d2469ba843c7fcceade8a6">DEFAULT</a></div><div class="ttdeci">@ DEFAULT</div><div class="ttdef"><b>Definition:</b> utils.h:34</div></div>
+<div class="ttc" id="autils_8h_html_ac8e1ef14e29c09045976b776d0f53bb2aaae736c7050d69ea102f212ce5380f3b"><div class="ttname"><a href="utils_8h.html#ac8e1ef14e29c09045976b776d0f53bb2aaae736c7050d69ea102f212ce5380f3b">VIOLA</a></div><div class="ttdeci">@ VIOLA</div><div class="ttdef"><b>Definition:</b> utils.h:34</div></div>
+<div class="ttc" id="autils_8h_html_ac8e1ef14e29c09045976b776d0f53bb2ab43fc5129914206a77c76e0cffd20df2"><div class="ttname"><a href="utils_8h.html#ac8e1ef14e29c09045976b776d0f53bb2ab43fc5129914206a77c76e0cffd20df2">GIALLO</a></div><div class="ttdeci">@ GIALLO</div><div class="ttdef"><b>Definition:</b> utils.h:34</div></div>
+<div class="ttc" id="autils_8h_html_ac8e1ef14e29c09045976b776d0f53bb2af31d451540fbe9019951dc44d57cada9"><div class="ttname"><a href="utils_8h.html#ac8e1ef14e29c09045976b776d0f53bb2af31d451540fbe9019951dc44d57cada9">ROSSO</a></div><div class="ttdeci">@ ROSSO</div><div class="ttdef"><b>Definition:</b> utils.h:34</div></div>
+<div class="ttc" id="autils_8h_html_ac8e1ef14e29c09045976b776d0f53bb2af9efd9e6bd17c0580d8a0432ba1b04a2"><div class="ttname"><a href="utils_8h.html#ac8e1ef14e29c09045976b776d0f53bb2af9efd9e6bd17c0580d8a0432ba1b04a2">VERDE</a></div><div class="ttdeci">@ VERDE</div><div class="ttdef"><b>Definition:</b> utils.h:34</div></div>
+<div class="ttc" id="autils_8h_html_ad359c906664ee3fc8df953bfb627e361"><div class="ttname"><a href="utils_8h.html#ad359c906664ee3fc8df953bfb627e361">salvaIndexs</a></div><div class="ttdeci">void salvaIndexs(struct index *indexs)</div><div class="ttdef"><b>Definition:</b> utils.c:54</div></div>
+<div class="ttc" id="autils_8h_html_af002d7b89b630460650609a581c1080a"><div class="ttname"><a href="utils_8h.html#af002d7b89b630460650609a581c1080a">inserisciData</a></div><div class="ttdeci">int inserisciData(data *memory)</div><div class="ttdef"><b>Definition:</b> utils.c:252</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generato da&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>
